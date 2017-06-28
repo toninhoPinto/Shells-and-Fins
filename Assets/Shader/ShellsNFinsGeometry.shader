@@ -299,8 +299,6 @@
 
 			if (eyeDot < maxOffset && eyeDot > -maxOffset)
 			{
-				float opacity = 1 - (eyeDot / maxOffset);
-				float3 dir = normalize(cross(lineNormal, eyeVec));
 				
 				g2f pIn;
 
